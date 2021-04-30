@@ -1,0 +1,326 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.top-header-area{
+    background-color: #a88c95;
+    overflow: hidden;
+    padding: 18px 0;
+}
+.content, .menu, .welcome-area{
+    width: 1170px;
+    margin: 0 auto;
+
+    overflow: hidden;
+}
+.top-header-area .social-area{
+    width: 50%;
+    float: left;
+}
+.top-header-area .social-area ul{
+    list-style: none;
+}
+.top-header-area .social-area ul li{
+    display: inline-block;
+    margin: 10px;
+    
+}
+.top-header-area .social-area ul li a{
+    background-color: #d2d2d2;
+    color: #6a3144;
+    width: 29px;
+    height: 32px;
+    display: block;
+    border-radius: 50%;
+    padding-top: 8px;
+    padding-left: 13px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.top-header-area .social-area ul li a:hover{
+    color: #d2d2d2;
+    background-color: #6a3144;
+
+}
+.top-header-area .search-area{
+    width: 50%;
+    float: right;
+    overflow: hidden;
+    
+}
+.top-header-area .search-area form{
+    width: 300px;
+    float: right;
+    margin-right: 10px;
+    margin: 10px;
+}
+.top-header-area .search-area input[type='search']{
+    width: 220px;
+    background-color: #fff;
+    color: #999999;
+    float: left;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    padding: 10px;
+}
+.top-header-area .search-area input[type='submit']{
+    width: 80px;
+    float: left;
+    border: none;
+    background-color: #97455f;
+    color: #fff;
+    border-radius: 0px 5px 5px 0px;
+    padding: 10px;
+}
+
+/*end top header area*/
+
+.logo-area{
+    padding: 25px 0;
+    margin: 0 auto;
+    width: 220px;
+}
+
+/*end logo area*/
+
+#main-menu{
+    background-color: #97455f;
+    height: 50px;
+    overflow: hidden;
+}
+#main-menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    overflow: hidden;
+
+}
+#main-menu ul li{
+    display: inline-block;  
+    margin: 0 5px;
+    overflow: hidden;
+}
+#main-menu ul li a{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: block;
+    padding: 15px 10px;
+    text-decoration: none;
+    transition: 0.5s;
+    overflow: hidden;
+    
+    
+}
+#main-menu ul li a:hover{
+    background-color: #6a3144;
+    color: #fff;
+}
+
+/*end menu area*/
+
+
+
+.banner img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/*end banner*/
+
+.welcome-area{
+    margin: 40px auto;
+}
+.welcome-area .left-welcome{
+    width: 48%;
+    float: left;
+}
+.welcome-area .left-welcome h3{
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 10px 0;
+    color: #333;
+    font-size: 30px;
+    font-family:'Open Sans', sans-serif;
+}
+.welcome-area .left-welcome p{
+    font-weight: 400;
+    color: #333;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5em;
+    
+}
+.welcome-area .left-welcome a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #6a3144;
+    padding: 10px;
+    margin-top: 30px;
+    display: inline-block;
+    transition: 0.5s;
+}
+.welcome-area .left-welcome a:hover{
+    color: #6a3144;
+    background-color: #fff;
+}
+.welcome-area .right-welcome{
+    width: 48%;
+    float: right;
+}
+
+
+
+
+
+.service-area{
+    background: #f5f5f5;
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.5em;
+    padding: 50px 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.service-area .inner-service{
+
+    overflow: hidden;
+
+}
+.service-area h2.title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+.service-area p.sub-title{
+    font-size: 18px;
+    text-align: center;
+}
+.service-area .main-service{
+    width: 100%;
+    overflow: hidden;
+}
+.service-area .child-service{
+
+    float: left;
+    width: 225px;
+    padding: 130px 60px 80px 105px;
+    line-height: 1.5em;
+    position: relative;
+    transition: 0.5s;
+
+}
+.service-area .child-service:hover{
+    background-color: #fff;
+}
+
+.service-area .child-service h3{
+    font-weight: 700;
+    font-size: 100px;
+    opacity: 0.1;
+    position: absolute;
+    left: 40px;
+    top: 110px;
+    color: #523827;;
+}
+.service-area .child-service h4{
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.service-area .child-service a{
+    color: #523827;
+    text-decoration: none;
+
+}
+.service-area .child-service p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    color: #7f7f7f;
+}
+
+
+
+.contact-area{
+    background-image: url(../images/quick-contract.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 50px 0;
+    overflow: hidden;
+}
+
+.contact-area h3{
+    font-size: 36px;
+    font-weight: 400;
+    color: #ddd;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.contact-area form{
+    width: 900px;
+    margin:10px auto ;
+    text-align: center;
+
+}
+
+.contact-area input{
+    width: 410px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 5px;
+
+}
+
+.contact-area textarea{
+    width: 854px;
+    height: 100px;
+    border: none;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.contact-area input[type='submit']{
+    width: 150px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    background-color: #97455f;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 25px;
+}
+.copyright-area{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.copyright-area img{
+    width: 360px;
+    
+}
+.copy{
+    width: 100%;
+    margin: 25px 0;
+    overflow: hidden;
+}
